@@ -86,13 +86,16 @@ section h2 {
 
 .about-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
 }
-
-.about-content div {
-    flex: 1;
+.about-content > p {
+    margin-top: -30px !important;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .about-content img {
